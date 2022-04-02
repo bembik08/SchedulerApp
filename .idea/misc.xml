@@ -3,7 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/background_gradient.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/background_homework_item.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/background_lesson.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/background_oval.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/image_background.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/item_bottom_navigation.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/item_selector_bottom_navigation.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/oval.xml" value="0.1145" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/drawable/round_corners.xml" value="0.1145" />
         <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/app_bar_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/classes_fragment.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/content_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/item_class.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/item_homework.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/item_lesson.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/main_fragment_layout.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SchedulerApp/app/src/main/res/layout/nav_header_main.xml" value="0.10989583333333333" />
       </map>
     </option>
   </component>
