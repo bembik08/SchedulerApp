@@ -10,69 +10,75 @@ fun getMockData(): Classes = Classes(
     lessons = listOf(
         Lesson(
             title = "History",
-            dateStart = "19/03/2022 20:00",
-            image = R.drawable.icons8_man_student_48
+            dateStart = "05/04/2022 10:00",
+            image = R.drawable.icons8_man_student_48,
+            false
         ),
         Lesson(
             title = "Literature",
-            dateStart = "18/03/2022 20:00",
-            image = R.drawable.icons8_man_student_48
+            dateStart = "05/04/2022 12:00",
+            image = R.drawable.icons8_man_student_48,
+            false
         ),
         Lesson(
             title = "Physics",
-            dateStart = "20/03/2022 20:00",
-            image = R.drawable.icons8_man_student_48
+            dateStart = "07/04/2022 10:00",
+            image = R.drawable.icons8_man_student_48,
+            false
         ),
         Lesson(
             title = "History",
-            dateStart = "05/03/2022 20:00",
-            image = R.drawable.icons8_man_student_48
+            dateStart = "07/04/2022 12:00",
+            image = R.drawable.icons8_man_student_48,
+            true
         ),
         Lesson(
             title = "Literature",
-            dateStart = "05/03/2022 10:00",
-            image = R.drawable.icons8_man_student_48
+            dateStart = "08/04/2022 10:00",
+            image = R.drawable.icons8_man_student_48,
+            false
         ),
         Lesson(
             title = "Physics",
-            dateStart = "07/03/2022 20:00",
-            image = R.drawable.icons8_man_student_48
+            dateStart = "08/04/2022 12:00",
+            image = R.drawable.icons8_man_student_48,
+            true
         )
     ),
     homeworks = listOf(
         HomeWork(
             title = "Physics",
-            dateStart = "18/03/2022 20:00",
+            dateStart = "06/04/2022 19:00",
             image = R.drawable.icons8_man_student_48,
             task = "Do homework Physics"
         ),
         HomeWork(
             title = "Literature",
-            dateStart = "19/03/2022 20:00",
+            dateStart = "04/04/2022 19:00",
             image = R.drawable.icons8_man_student_48,
             task = "Do homework Literature"
         ),
         HomeWork(
             title = "Literature",
-            dateStart = "20/03/2022 20:00",
+            dateStart = "07/04/2022 19:00",
             image = R.drawable.icons8_man_student_48,
             task = "Do homework Literature"
         ),
         HomeWork(
             title = "Physics",
-            dateStart = "27/03/2022 20:00",
+            dateStart = "07/04/2022 20:00",
             image = R.drawable.icons8_man_student_48,
             task = "Do homework Physics"
         ),
         HomeWork(
             title = "Literature",
-            dateStart = "26/03/2022 20:00",
+            dateStart = "10/04/2022 20:00",
             image = R.drawable.icons8_man_student_48,
             task = "Do homework Literature"
         ),
         HomeWork(
             title = "Literature",
-            dateStart = "25/03/2022 20:00",
+            dateStart = "12/04/2022 20:00",
             image = R.drawable.icons8_man_student_48,
             task = "Do homework Literature"
         )
