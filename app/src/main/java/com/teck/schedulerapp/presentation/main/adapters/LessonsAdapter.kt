@@ -1,5 +1,6 @@
 package com.teck.schedulerapp.presentation.main.adapters
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.view.LayoutInflater
@@ -33,16 +34,31 @@ class LessonsAdapter(
         fun bind(lesson: Lesson) {
             val dateTime = LocalDateTime.parse(lesson.dateStart, formatter)
             viewBinding.titleOfLesson.text = lesson.title
-            viewBinding.timeOfLesson.text = "${dateTime.toLocalTime()} - ${dateTime.toLocalTime().plusMinutes(duration)}"
+            viewBinding.timeOfLesson.text =
+                "${dateTime.toLocalTime()} - ${dateTime.toLocalTime().plusMinutes(duration)}"
             viewBinding.lessonImage.setImageResource(lesson.image)
             initListeners()
         }
 
         private fun initListeners() {
             viewBinding.skypeItem.setOnClickListener {
-                val skypeIntent = Intent("android.intent.action.VIEW")
-                skypeIntent.data = Uri.parse("skype:skypeusername")
-                viewBinding.root.context.startActivity(skypeIntent)
+                try {
+                    viewBinding.root.context.startActivity(
+                        Intent(
+                            Intent.ACTION_VIEW,
+                            Uri.parse("market://details?id=Skype")
+                        )
+                    )
+                } catch (anfe: ActivityNotFoundException) {
+                    viewBinding.root.context.startActivity(
+                        Intent(
+                            Intent.ACTION_VIEW,
+                            Uri.parse(
+                                "https://play.google.com/store/apps/details?id=Skype"
+                            )
+                        )
+                    )
+                }
             }
         }
     }
